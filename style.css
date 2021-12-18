@@ -1,0 +1,51 @@
+html,body  {
+	background-color: lightgray;
+	text-align: center;
+} 
+
+h2{
+	color: blue;
+}
+
+h3{
+	color: blue;
+}
+
+.container{
+	padding: 16px 16px 24px 16px;
+	display: inline-block;
+	background-color: white;
+	width: 200px;
+	border: 1px solid blue;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 3px rgb(167, 167, 167);
+	min-height: 166px;
+}
+
+
+.shape{
+	border: 1px white solid; 
+	background: rgb(240, 240, 240);
+	padding: 0;
+	display: inline-block;
+	box-shadow: 1px 1px 1px rgb(136, 136, 136); 
+	margin: 2px;
+}
+
+.shape:hover{
+	cursor: pointer;
+}
+
+.selected{
+	background-color: blue;
+}
+.wrong{
+	background-color: red;
+}
+
+.square{
+}
+
+.circle{
+	border-radius: 50px;
+}
